@@ -1,0 +1,12 @@
+
+
+Feature: gloaap create account
+
+  Scenario: gloaap create new account
+
+  When Gloapp home page display
+  Then I click on sign in option
+  And I click on Email address input and enetering email do.tomasza@wp.pl
+  And I click on create an account icon
+  Then Gloapps should sent email confirmation
+
